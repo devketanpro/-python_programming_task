@@ -1,0 +1,8 @@
+services:
+  backend:
+    command : python ./generate_token.py
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    stdin_open: true
+    tty: true
