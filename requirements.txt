@@ -1,0 +1,10 @@
+certifi
+charset-normalizer
+idna
+PyJWT
+python-dateutil
+python-dotenv
+requests
+six
+sqlparse
+urllib3

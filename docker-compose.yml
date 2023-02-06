@@ -1,6 +1,8 @@
 services:
   backend:
     command : python ./generate_token.py
+    ports:
+      - 9098:9098
     build:
       context: .
       dockerfile: ./Dockerfile
